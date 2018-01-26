@@ -12,6 +12,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { MeteoComponent } from './meteo/meteo.component';
+import { HeroesComponent } from './heroes/heroes.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { MeteoComponent } from './meteo/meteo.component';
     AppComponent,
     HomeComponent,
     AboutComponent,
-    MeteoComponent
+    MeteoComponent,
+    HeroesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
