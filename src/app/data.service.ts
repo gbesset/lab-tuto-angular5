@@ -14,6 +14,6 @@ export class DataService {
   }
 
   testMe(){
-  	return 'ok, service called';
+  	return 'ok, service is called';
   }
 }
