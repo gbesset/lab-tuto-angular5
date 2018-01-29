@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { DataService } from './data.service';
 import { WeatherService } from './weather.service';
+import { HeroService } from './hero.service';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
@@ -36,7 +38,8 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
   ],
   providers: [ 
         DataService,
-        WeatherService 
+        WeatherService,
+        HeroService 
   ],
   bootstrap: [ AppComponent ]
 })
