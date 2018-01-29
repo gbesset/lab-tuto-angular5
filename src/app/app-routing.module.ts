@@ -28,6 +28,10 @@ const routes: Routes = [
 	{
 		path: 'dashboard',
 		component: DashboardComponent
+	},
+	{
+		path: 'detail/:id',
+		component: HeroDetailComponent
 	}
 ];
 

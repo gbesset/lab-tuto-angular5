@@ -10,7 +10,9 @@ import { HeroService } from '../hero.service';
 export class HeroesComponent implements OnInit {
  
   heroes: Hero[];
-  selectedHero:Hero;
+
+  //plus utilise (routing) on a créer un lien /detail/id
+  //selectedHero:Hero;
   
   constructor(private _heroService: HeroService) { }
 
@@ -18,9 +20,10 @@ export class HeroesComponent implements OnInit {
     this.getHeroes();
   }
 
-  onSelect(hero: Hero): void{
-    this.selectedHero = hero;
-  }
+  //plus utilise (routing) on a créer un lien /detail/id
+  //onSelect(hero: Hero): void{
+  //  this.selectedHero = hero;
+  //}
 
   //getHeroes(): void{
   //  this.heroes = this._heroService.getHeroes();

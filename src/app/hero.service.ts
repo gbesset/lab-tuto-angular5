@@ -23,4 +23,10 @@ export class HeroService {
   	return of(HEROES);
   }
 
+  getHero(id: number): Observable<Hero>{
+  	// pas ' mais ` car un {} dans la chaine de caractère
+  	this._messageService.add(`HeroService: fetched heroe with id=${id}`);
+  	return of(HEROES.find(hero => hero.id === id));
+  }
+
 }
