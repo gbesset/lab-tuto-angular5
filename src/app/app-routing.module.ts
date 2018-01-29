@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { MeteoComponent } from './meteo/meteo.component';
@@ -19,7 +20,7 @@ const routes: Routes = [
 		component: MeteoComponent
 	},
 	{
-		path: 'hero',
+		path: 'heroes',
 		component: HeroesComponent
 	}
 ];
