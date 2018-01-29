@@ -14,6 +14,7 @@ import { AboutComponent } from './about/about.component';
 import { MeteoComponent } from './meteo/meteo.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { FooterComponent } from './footer/footer.component';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { FooterComponent } from './footer/footer.component';
     AboutComponent,
     MeteoComponent,
     HeroesComponent,
-    FooterComponent
+    FooterComponent,
+    HeroDetailComponent
   ],
   imports: [
     BrowserModule,
