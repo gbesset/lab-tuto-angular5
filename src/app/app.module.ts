@@ -19,6 +19,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessageService } from './message.service';
 import { MessagesComponent } from './messages/messages.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { MessagesComponent } from './messages/messages.component';
     HeroesComponent,
     FooterComponent,
     HeroDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

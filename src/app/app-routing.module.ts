@@ -5,6 +5,8 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { MeteoComponent } from './meteo/meteo.component';
 import { HeroesComponent } from './heroes/heroes.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 const routes: Routes = [
 	{
@@ -22,6 +24,10 @@ const routes: Routes = [
 	{
 		path: 'heroes',
 		component: HeroesComponent
+	},
+	{
+		path: 'dashboard',
+		component: DashboardComponent
 	}
 ];
 
