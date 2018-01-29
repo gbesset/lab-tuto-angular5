@@ -17,6 +17,8 @@ import { MeteoComponent } from './meteo/meteo.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
+import { MessageService } from './message.service';
+import { MessagesComponent } from './messages/messages.component';
 
 
 @NgModule({
@@ -27,7 +29,8 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
     MeteoComponent,
     HeroesComponent,
     FooterComponent,
-    HeroDetailComponent
+    HeroDetailComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,
@@ -39,7 +42,8 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
   providers: [ 
         DataService,
         WeatherService,
-        HeroService 
+        HeroService,
+        MessageService 
   ],
   bootstrap: [ AppComponent ]
 })
