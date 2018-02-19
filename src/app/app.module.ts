@@ -1,6 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+//HTTP
+import { HttpModule } from '@angular/http';
+
+
 import { DataService } from './data.service';
 import { WeatherService } from './weather.service';
 import { HeroService } from './hero.service';
@@ -20,6 +24,8 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessageService } from './message.service';
 import { MessagesComponent } from './messages/messages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { HttpTestComponent } from './http-test/http-test.component';
+
 
 
 @NgModule({
@@ -32,10 +38,12 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     FooterComponent,
     HeroDetailComponent,
     MessagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    HttpTestComponent
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     AppRoutingModule,
     FormsModule,
     BrowserAnimationsModule,
